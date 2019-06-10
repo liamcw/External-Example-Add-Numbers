@@ -10,6 +10,7 @@ public class AddNumbers {
 		x = in.nextInt();
 		y = in.nextInt();
 		z = x + y;
+		in.close();
 		System.out.println("Sum of entered integers = " + z);
 	}
 
